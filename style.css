@@ -4,6 +4,11 @@ body {
   line-height: 1;
 }
 
+body .container{
+height: 700px;
+overflow: auto;
+}
+
 textarea{
   background: transparent;
   border: none;
@@ -32,7 +37,7 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 90px;
   border-top: 1px solid white;;
 }
 
@@ -40,6 +45,7 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding: 30px;
 }
 
 .past {
@@ -55,6 +61,11 @@ textarea{
 .future {
   background-color: #77dd77;
   color: white;
+}
+
+.fas{
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .saveBtn {
